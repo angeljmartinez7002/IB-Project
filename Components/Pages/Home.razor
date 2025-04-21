@@ -1,0 +1,94 @@
+﻿@page "/"
+
+<!-- check App.css in the wwwrooot folder for all the CSS classes used (except for MainLayout.Razor.css) -->
+
+<PageTitle>Home</PageTitle>
+
+<h1>Placeholder Title</h1>
+
+<div class="center">
+    <h2>
+        Enter your steam ID:
+    </h2>
+
+    <input type="text" id="steamId" @value="SteamID" @oninput="OnSteamIDChanged" class="@(IsValidSteamID ? "valid" : "invalid")"/>
+    <!-- Binds the value and input separately to control each, also sets CSS class based onclick validation of the steam ID -->
+    <button href="question" class="@(IsValidSteamID ? "valid-button" : "invalid-button")">Continue</button>
+    <!-- button is disabled if the steam ID is invalid, and the class is set based on the validation result -->
+</div>
+
+@if(IsValidSteamID == false)
+{
+    <h3>Steam ID is invalid.</h3>
+    // creates popup message if the steam ID is invalid
+}
+
+@code {
+    private string SteamID { get; set; } = string.Empty;
+    private bool IsValidSteamID { get; set; } = true;
+    private bool IsLoading { get; set; } = false;
+
+    private async Task ValidateSteamIDAsync()
+    {
+        Console.WriteLine("ValidateSteamIDAsync is working");
+        if (string.IsNullOrWhiteSpace(SteamID) == true)
+        {
+            IsValidSteamID = false;
+            return;
+            // if the steam ID is empty or null, set the validation to false and return
+        }
+        if(SteamID == "123")
+        {
+            IsValidSteamID = true;
+            StateHasChanged();
+            return;
+            // for testing purposes, if the steam ID is 123, set the validation to true and return (will not call the API, simply allow the user to proceed)
+        }
+
+        IsLoading = true;
+
+        try
+        {
+            var isValid = await ApiValidateSteamIDAsync(SteamID);
+            // calls the method to validate the steam ID using the steam API
+            IsValidSteamID = isValid;
+            // sets IsValidSteamID to the result of the API call
+            StateHasChanged();
+            // refreshes the UI to show the result of the validation
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error validating Steam ID: {ex.Message}");
+            IsValidSteamID = false;
+        }
+        finally
+        {
+            IsLoading = false;
+            // if the validation is done, set the loading to false
+        }
+    }
+
+    private async Task<bool> ApiValidateSteamIDAsync(string steamID)
+    {
+        using var httpClient = new HttpClient();
+        var response = await httpClient.GetAsync($"https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=B1C07E0EC26DA74414AB6F48736452F8&steamid={steamID}&format=json");
+        // calls the steam API to validate the steam ID, using a test key (will not work in production)
+        Console.WriteLine($"Status: {response.StatusCode}");
+        if (response.IsSuccessStatusCode)
+        {
+            var json = await response.Content.ReadAsStringAsync();
+            Console.WriteLine("${json}");
+            return !string.IsNullOrEmpty(json);
+        }
+        return false;
+        // If the response is not successful, return false
+    }
+
+    private async Task OnSteamIDChanged(ChangeEventArgs e)
+        {
+            Console.WriteLine("OnSteamIDChanged is working");
+            SteamID = e.Value?.ToString() ?? string.Empty;
+            // Assigns empty string if null
+            await ValidateSteamIDAsync();
+        }
+}

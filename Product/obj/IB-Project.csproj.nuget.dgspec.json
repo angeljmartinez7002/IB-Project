@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/IB-Project/IB-Project.csproj": {}
+    "/workspaces/IB-Project/Product/IB-Project.csproj": {}
   },
   "projects": {
-    "/workspaces/IB-Project/IB-Project.csproj": {
+    "/workspaces/IB-Project/Product/IB-Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/IB-Project/IB-Project.csproj",
+        "projectUniqueName": "/workspaces/IB-Project/Product/IB-Project.csproj",
         "projectName": "IB-Project",
-        "projectPath": "/workspaces/IB-Project/IB-Project.csproj",
+        "projectPath": "/workspaces/IB-Project/Product/IB-Project.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/IB-Project/obj/",
+        "outputPath": "/workspaces/IB-Project/Product/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"

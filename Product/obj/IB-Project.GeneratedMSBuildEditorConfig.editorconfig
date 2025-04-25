@@ -1,0 +1,45 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = IB-Project
+build_property.RootNamespace = IB-Project
+build_property.ProjectDir = /workspaces/IB-Project/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /workspaces/IB-Project
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/workspaces/IB-Project/Product/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = UHJvZHVjdC9Db21wb25lbnRzL0FwcC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/IB-Project/Product/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = UHJvZHVjdC9Db21wb25lbnRzL1BhZ2VzL0Vycm9yLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/IB-Project/Product/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.TargetPath = UHJvZHVjdC9Db21wb25lbnRzL1BhZ2VzL0hvbWUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/IB-Project/Product/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = UHJvZHVjdC9Db21wb25lbnRzL1JvdXRlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/IB-Project/Product/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UHJvZHVjdC9Db21wb25lbnRzL19JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/workspaces/IB-Project/Product/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = UHJvZHVjdC9Db21wb25lbnRzL0xheW91dC9NYWluTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-xzpr29o5jz

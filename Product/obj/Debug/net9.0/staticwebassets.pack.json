@@ -1,191 +1,191 @@
 {
   "Files": [
     {
-      "Id": "/workspaces/IB-Project/obj/Debug/net9.0/scopedcss/projectbundle/IB-Project.bundle.scp.css",
-      "PackagePath": "staticwebassets/IB-Project.esyummnr1s.bundle.scp.css"
+      "Id": "/workspaces/IB-Project/Product/obj/Debug/net9.0/scopedcss/projectbundle/IB-Project.bundle.scp.css",
+      "PackagePath": "staticwebassets/IB-Project.3ezwo3uvd5.bundle.scp.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/app.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/favicon.png",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/workspaces/IB-Project/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {

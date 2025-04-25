@@ -1,5 +1,4 @@
 ﻿@page "/"
-
 <!-- check App.css in the wwwrooot folder for all the CSS classes used (except for MainLayout.Razor.css) -->
 
 <PageTitle>Home</PageTitle>
@@ -13,7 +12,7 @@
 
     <input type="text" id="steamId" @value="SteamID" @oninput="OnSteamIDChanged" class="@(IsValidSteamID ? "valid" : "invalid")"/>
     <!-- Binds the value and input separately to control each, also sets CSS class based onclick validation of the steam ID -->
-    <button href="question" class="@(IsValidSteamID ? "valid-button" : "invalid-button")">Continue</button>
+    <button class="@(IsValidSteamID ? "valid-button" : "invalid-button")" href="/questions">Continue</button>
     <!-- button is disabled if the steam ID is invalid, and the class is set based on the validation result -->
 </div>
 

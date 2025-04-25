@@ -1,0 +1,32 @@
+﻿@page "/questions"
+
+<h1 class="center">Question @questionNumber</h1> 
+
+@for(int i = 0; i < questionNumber; i++)
+{
+    <h2 class="question">@question[i,0]</h2>
+    @for (int j = 0; j < @answerButtons(questionNumber); j++)
+    {
+        <button class="answer-button" @onclick="() => answered(i)">@possibleAnswers[i,j]</button>
+    }
+}
+@code {
+    public int questionNumber { get; set; } = 1;
+    private string[] answer { get; set; } = [];
+    private string currentQuestion { get; set; } = string.Empty;
+
+    private void answered(int answerNumber)
+    {
+        answer.Append(possibleAnswers[questionNumber - 1, answerNumber]);
+        questionNumber++;
+        return;
+    }
+
+    private int answerButtons(int questionNumber)
+    {
+        return int.Parse(question[questionNumber - 1, 1]);
+    }
+
+    private string[,] question = { {"Do you enjoy fast paced action?", "2"}, {"Do you prefer singleplayer or multiplayer focused games?", "2"}, {"Do you enjoy completing goals with friends or fighting opponents in competition?", "2"}, {"Do you enjoy linear stories or open adventures?" , "2"}};
+    private string[,] possibleAnswers = { {"Yes", "No"}, {"Singleplayer", "Multiplayer"}, {"Completing goals with friends", "Competing against opponents"}, {"Linear", "Open Adventure"} };
+}

@@ -1,0 +1,7 @@
+/workspaces/IB-Project/Product/bin/Releas/net9.0/publish/Product
+/workspaces/IB-Project/Product/bin/Releas/net9.0/publish/appsettings.Development.json
+/workspaces/IB-Project/Product/bin/Releas/net9.0/publish/appsettings.json
+/workspaces/IB-Project/Product/bin/Releas/net9.0/publish/Product.dll
+/workspaces/IB-Project/Product/bin/Releas/net9.0/publish/Product.deps.json
+/workspaces/IB-Project/Product/bin/Releas/net9.0/publish/Product.runtimeconfig.json
+/workspaces/IB-Project/Product/bin/Releas/net9.0/publish/Product.pdb

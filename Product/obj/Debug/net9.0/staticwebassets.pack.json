@@ -189,6 +189,14 @@
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
+      "Id": "/workspaces/IB-Project/Product/wwwroot/manifest.json",
+      "PackagePath": "staticwebassets/manifest.json"
+    },
+    {
+      "Id": "/workspaces/IB-Project/Product/wwwroot/service-worker.js",
+      "PackagePath": "staticwebassets/service-worker.js"
+    },
+    {
       "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Product.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

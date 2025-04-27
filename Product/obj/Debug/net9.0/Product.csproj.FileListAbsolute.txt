@@ -77,3 +77,5 @@
 /workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/xfrt7ngvl6-gikslx8yd3.gz
 /workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/pcqm7jvxk3-gikslx8yd3.gz
 /workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/0r5t3otmxj-8w4kwzjtja.gz
+/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/szn5v92h5s-e2x8dlr1pd.gz
+/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/jdrx6wk6or-cmrn95zu5i.gz

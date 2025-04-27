@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4VCc4vrBPki4YmSSxFd5fw7U+HFdCOVnSWTP2ih6pN4=",
+  "Hash": "qPhU6Z6+o4RIq3vzypu8T6Rnl7RekzJo1ECp0kvJVhQ=",
   "Source": "Product",
   "BasePath": "_content/Product",
   "Mode": "Default",
@@ -500,6 +500,27 @@
       "OriginalItemSpec": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
+      "Identity": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/jdrx6wk6or-cmrn95zu5i.gz",
+      "SourceId": "Product",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Product",
+      "RelativePath": "service-worker#[.{fingerprint=cmrn95zu5i}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/workspaces/IB-Project/Product/wwwroot/service-worker.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "oea87vtklj",
+      "Integrity": "sPm1ciZl3AVxFJ4a/FUkKfg+YxC5jiW5zpFqi2cEm2Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/workspaces/IB-Project/Product/wwwroot/service-worker.js"
+    },
+    {
       "Identity": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/kn0cyz0mjx-ausgxo2sd3.gz",
       "SourceId": "Product",
       "SourceType": "Discovered",
@@ -813,6 +834,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/workspaces/IB-Project/Product/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Identity": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/szn5v92h5s-e2x8dlr1pd.gz",
+      "SourceId": "Product",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Product",
+      "RelativePath": "manifest#[.{fingerprint=e2x8dlr1pd}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/workspaces/IB-Project/Product/wwwroot/manifest.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "i7cdxvy1pc",
+      "Integrity": "DnyohTcIRodqZxCDCKom8kWcznK2nb36n7TNvsbwpnM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/workspaces/IB-Project/Product/wwwroot/manifest.json"
     },
     {
       "Identity": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/t6ufwkfomr-dxx9fxp4il.gz",
@@ -2010,6 +2052,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Identity": "/workspaces/IB-Project/Product/wwwroot/manifest.json",
+      "SourceId": "Product",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/IB-Project/Product/wwwroot/",
+      "BasePath": "_content/Product",
+      "RelativePath": "manifest#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e2x8dlr1pd",
+      "Integrity": "Zur02QTLwVt2EbWlHCubb0zaW0ZYQqFnzflkxROfArg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/manifest.json"
+    },
+    {
+      "Identity": "/workspaces/IB-Project/Product/wwwroot/service-worker.js",
+      "SourceId": "Product",
+      "SourceType": "Discovered",
+      "ContentRoot": "/workspaces/IB-Project/Product/wwwroot/",
+      "BasePath": "_content/Product",
+      "RelativePath": "service-worker#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmrn95zu5i",
+      "Integrity": "bIf7NXObMJPtr1G+i3mPaAIwX7M3LZUxfoisgOEw5Vo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/service-worker.js"
     }
   ],
   "Endpoints": [
@@ -15506,6 +15590,304 @@
       ]
     },
     {
+      "Route": "manifest.e2x8dlr1pd.json",
+      "AssetFile": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/szn5v92h5s-e2x8dlr1pd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004761904762"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DnyohTcIRodqZxCDCKom8kWcznK2nb36n7TNvsbwpnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Zur02QTLwVt2EbWlHCubb0zaW0ZYQqFnzflkxROfArg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e2x8dlr1pd"
+        },
+        {
+          "Name": "label",
+          "Value": "manifest.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zur02QTLwVt2EbWlHCubb0zaW0ZYQqFnzflkxROfArg="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.e2x8dlr1pd.json",
+      "AssetFile": "/workspaces/IB-Project/Product/wwwroot/manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zur02QTLwVt2EbWlHCubb0zaW0ZYQqFnzflkxROfArg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e2x8dlr1pd"
+        },
+        {
+          "Name": "label",
+          "Value": "manifest.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zur02QTLwVt2EbWlHCubb0zaW0ZYQqFnzflkxROfArg="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.e2x8dlr1pd.json.gz",
+      "AssetFile": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/szn5v92h5s-e2x8dlr1pd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DnyohTcIRodqZxCDCKom8kWcznK2nb36n7TNvsbwpnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e2x8dlr1pd"
+        },
+        {
+          "Name": "label",
+          "Value": "manifest.json.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DnyohTcIRodqZxCDCKom8kWcznK2nb36n7TNvsbwpnM="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.json",
+      "AssetFile": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/szn5v92h5s-e2x8dlr1pd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.004761904762"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DnyohTcIRodqZxCDCKom8kWcznK2nb36n7TNvsbwpnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Zur02QTLwVt2EbWlHCubb0zaW0ZYQqFnzflkxROfArg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zur02QTLwVt2EbWlHCubb0zaW0ZYQqFnzflkxROfArg="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.json",
+      "AssetFile": "/workspaces/IB-Project/Product/wwwroot/manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "418"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zur02QTLwVt2EbWlHCubb0zaW0ZYQqFnzflkxROfArg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zur02QTLwVt2EbWlHCubb0zaW0ZYQqFnzflkxROfArg="
+        }
+      ]
+    },
+    {
+      "Route": "manifest.json.gz",
+      "AssetFile": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/szn5v92h5s-e2x8dlr1pd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "209"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DnyohTcIRodqZxCDCKom8kWcznK2nb36n7TNvsbwpnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:32:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DnyohTcIRodqZxCDCKom8kWcznK2nb36n7TNvsbwpnM="
+        }
+      ]
+    },
+    {
       "Route": "Product.bundle.scp.css",
       "AssetFile": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/pcqm7jvxk3-gikslx8yd3.gz",
       "Selectors": [
@@ -16098,6 +16480,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-uqwdDjqObCJNDhrzEynRQ/UEIlsuHIDIhAmaZYCEMPk="
+        }
+      ]
+    },
+    {
+      "Route": "service-worker.cmrn95zu5i.js",
+      "AssetFile": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/jdrx6wk6or-cmrn95zu5i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003215434084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sPm1ciZl3AVxFJ4a/FUkKfg+YxC5jiW5zpFqi2cEm2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:34:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bIf7NXObMJPtr1G+i3mPaAIwX7M3LZUxfoisgOEw5Vo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmrn95zu5i"
+        },
+        {
+          "Name": "label",
+          "Value": "service-worker.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIf7NXObMJPtr1G+i3mPaAIwX7M3LZUxfoisgOEw5Vo="
+        }
+      ]
+    },
+    {
+      "Route": "service-worker.cmrn95zu5i.js",
+      "AssetFile": "/workspaces/IB-Project/Product/wwwroot/service-worker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bIf7NXObMJPtr1G+i3mPaAIwX7M3LZUxfoisgOEw5Vo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:34:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmrn95zu5i"
+        },
+        {
+          "Name": "label",
+          "Value": "service-worker.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIf7NXObMJPtr1G+i3mPaAIwX7M3LZUxfoisgOEw5Vo="
+        }
+      ]
+    },
+    {
+      "Route": "service-worker.cmrn95zu5i.js.gz",
+      "AssetFile": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/jdrx6wk6or-cmrn95zu5i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sPm1ciZl3AVxFJ4a/FUkKfg+YxC5jiW5zpFqi2cEm2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:34:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmrn95zu5i"
+        },
+        {
+          "Name": "label",
+          "Value": "service-worker.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sPm1ciZl3AVxFJ4a/FUkKfg+YxC5jiW5zpFqi2cEm2Y="
+        }
+      ]
+    },
+    {
+      "Route": "service-worker.js",
+      "AssetFile": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/jdrx6wk6or-cmrn95zu5i.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003215434084"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sPm1ciZl3AVxFJ4a/FUkKfg+YxC5jiW5zpFqi2cEm2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:34:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bIf7NXObMJPtr1G+i3mPaAIwX7M3LZUxfoisgOEw5Vo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIf7NXObMJPtr1G+i3mPaAIwX7M3LZUxfoisgOEw5Vo="
+        }
+      ]
+    },
+    {
+      "Route": "service-worker.js",
+      "AssetFile": "/workspaces/IB-Project/Product/wwwroot/service-worker.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "676"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bIf7NXObMJPtr1G+i3mPaAIwX7M3LZUxfoisgOEw5Vo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:34:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIf7NXObMJPtr1G+i3mPaAIwX7M3LZUxfoisgOEw5Vo="
+        }
+      ]
+    },
+    {
+      "Route": "service-worker.js.gz",
+      "AssetFile": "/workspaces/IB-Project/Product/obj/Debug/net9.0/compressed/jdrx6wk6or-cmrn95zu5i.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "310"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sPm1ciZl3AVxFJ4a/FUkKfg+YxC5jiW5zpFqi2cEm2Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 22:34:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sPm1ciZl3AVxFJ4a/FUkKfg+YxC5jiW5zpFqi2cEm2Y="
         }
       ]
     }

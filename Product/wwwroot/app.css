@@ -6,6 +6,10 @@ a, .btn-link {
     color: #006bb7;
 }
 
+h1::deep {
+    text-align: center;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #1b6ec2;
@@ -28,6 +32,9 @@ h1:focus {
     outline: 1px solid #26b050;
 }
 
+.valid {
+    border : 1px solid #26b050;
+}
 .invalid {
     outline: 1px solid #e50000;
 }
@@ -60,25 +67,11 @@ h1:focus {
 }
 
 .center {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    align-items: center;
-    text-align: center;
     justify-content: center;
-}
-
-input[id="steamId"] {
-    margin-top: 20px;
-    width: 50%;
+    justify-items: center;
     text-align: center;
-}
-
-.invalid {
-    border : 1px solid #e50000;
-}
-
-.valid {
-    border : 1px solid #26b050;
+    margin-top: 40 px;
+    margin-bottom: 40 px;
 }
 
 .invalid-button {
@@ -86,20 +79,30 @@ input[id="steamId"] {
 }
 
 .valid-button {
-    fill: blue;
     visibility: visible;
+    fill: blue;
     width: 80px;
-    width: 40px;
+    height: 40px;
     margin-top: 20px;
     align-content: center;
 }
 
 .answer-button {
-    width : 80px;
-    height : 40px;
+    width : fit-content;
+    height : fit-content(110%);
     margin-top: 20px;
     margin-left: 80px;
     margin-right: 80px;
     align-items: center;
-    border: 5px, solid, black;
+    border: 2.5px, solid, black;
+}
+
+.question-block {
+    width: fit-content(110%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: block;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }

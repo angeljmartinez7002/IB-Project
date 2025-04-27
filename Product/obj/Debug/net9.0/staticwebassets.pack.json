@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "/workspaces/IB-Project/Product/obj/Debug/net9.0/scopedcss/projectbundle/IB-Project.bundle.scp.css",
-      "PackagePath": "staticwebassets/IB-Project.3ezwo3uvd5.bundle.scp.css"
+      "Id": "/workspaces/IB-Project/Product/obj/Debug/net9.0/scopedcss/projectbundle/Product.bundle.scp.css",
+      "PackagePath": "staticwebassets/Product.gikslx8yd3.bundle.scp.css"
     },
     {
       "Id": "/workspaces/IB-Project/Product/wwwroot/app.css",
@@ -189,24 +189,24 @@
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.IB-Project.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Product.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.IB-Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.Product.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.IB-Project.props",
-      "PackagePath": "build\\IB-Project.props"
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.build.Product.props",
+      "PackagePath": "build\\Product.props"
     },
     {
-      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.IB-Project.props",
-      "PackagePath": "buildMultiTargeting\\IB-Project.props"
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.Product.props",
+      "PackagePath": "buildMultiTargeting\\Product.props"
     },
     {
-      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.IB-Project.props",
-      "PackagePath": "buildTransitive\\IB-Project.props"
+      "Id": "obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.Product.props",
+      "PackagePath": "buildTransitive\\Product.props"
     }
   ],
   "ElementsToRemove": []

@@ -1,32 +1,92 @@
-﻿@page "/questions"
+@page "/Questions"
 
-<h1 class="center">Question @questionNumber</h1> 
-
-@for(int i = 0; i < questionNumber; i++)
+@for(int i = 0; i < question.GetLength(0); i++)
 {
-    <h2 class="question">@question[i,0]</h2>
-    @for (int j = 0; j < @answerButtons(questionNumber); j++)
+    if(answer.Count == question.GetLength(0))
     {
-        <button class="answer-button" @onclick="() => answered(i)">@possibleAnswers[i,j]</button>
+        break;
     }
+    answer.Add(i.ToString());
 }
+
+<div class="center"> 
+
+    @for(int i = 0; i < question.GetLength(0); i++)
+    {
+        if((questionNumber - 1) != i)
+        {
+            break;
+        }
+        Console.WriteLine($"i = {i}" + " questionNumber = " + questionNumber);
+        
+        @if(i == (possibleAnswers.GetLength(0) - 1))
+        {
+            Console.WriteLine("Stopping at question " + i + ", not enough answers available.");
+            break;
+        }
+        
+        <div class="question-block">
+            
+            <h1>Question @questionNumber</h1>
+            <h2 class="question">@question[i,0]</h2>
+            @for(int j = 0; j < answerButtons(i); j++)
+            {
+                <button class="answer-button" @onclick="() => answered(i,j)">@possibleAnswers[i,j]</button>
+            }
+        
+        </div>
+        
+        questionNumber++;
+    }
+
+</div>
+
+<a href="/Results"><button class="@(finished ? "valid-button" : "invalid-button")">Go to Results</button></a>
+
 @code {
     public int questionNumber { get; set; } = 1;
-    private string[] answer { get; set; } = [];
+    private List<string> answer { get; set; } = new List<string>();
     private string currentQuestion { get; set; } = string.Empty;
+    protected bool finished { get; set; } = false;
 
-    private void answered(int answerNumber)
+    public void answered(int answeredQuestion, int ans)
     {
-        answer.Append(possibleAnswers[questionNumber - 1, answerNumber]);
-        questionNumber++;
-        return;
+        answer[answeredQuestion] = possibleAnswers[answeredQuestion, ans];
+        Console.WriteLine("Answered question " + answeredQuestion + " with answer " + possibleAnswers[answeredQuestion, ans]);
+        StateHasChanged();
+    }
+
+    private void check()
+    {
+        if(answer.Count == question.GetLength(0))
+        {
+            finished = true;
+            StateHasChanged();
+        }
+        else
+        {
+            finished = false;
+            StateHasChanged();
+        }
     }
 
     private int answerButtons(int questionNumber)
     {
-        return int.Parse(question[questionNumber - 1, 1]);
+        return int.Parse(question[questionNumber, 1]);
     }
 
-    private string[,] question = { {"Do you enjoy fast paced action?", "2"}, {"Do you prefer singleplayer or multiplayer focused games?", "2"}, {"Do you enjoy completing goals with friends or fighting opponents in competition?", "2"}, {"Do you enjoy linear stories or open adventures?" , "2"}};
-    private string[,] possibleAnswers = { {"Yes", "No"}, {"Singleplayer", "Multiplayer"}, {"Completing goals with friends", "Competing against opponents"}, {"Linear", "Open Adventure"} };
+    private string[,] question = {
+        {"Do you enjoy fast paced action  or story-driven games?", "2"},
+        {"Do you prefer singleplayer or multiplayer focused games?", "2"},
+        {"Do you enjoy completing goals with friends or fighting opponents in competition?", "2"},
+        {"Do you enjoy linear stories or open adventures?" , "2"},
+        {"Do you like games with puzzles or straight-forward levels?","2"},
+        {"Do you like to hack and slash enemies or fight hard opponents one at a time?","2"}};
+    private string[,] possibleAnswers = {
+        {"Action", "Story"},
+        {"Singleplayer", "Multiplayer"},
+        {"Completing goals with friends", "Competing against opponents"},
+        {"Linear", "Open Adventure"},
+        {"Puzzles","Straight-Forward"},
+        {"Hack & Slash","One at a time"}};
 }
